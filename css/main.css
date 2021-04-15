@@ -1,0 +1,944 @@
+/******* GRID ************/
+
+.screen-width {
+  margin: 0 auto;
+  width: 100%;
+
+}
+
+.full-width {
+  margin: 0 auto;
+  max-width: 1272px;
+  overflow: auto;
+
+}
+
+.width-10-12 {
+  width: 1057px;
+}
+
+.width-9-12 {
+  width: 950px;
+
+}
+
+.width-8-12 {
+  width: 843px;
+}
+
+.width-7-12 {
+  width: 736px;
+}
+
+.width-6-12 {
+  width: 629px;
+}
+
+.width-5-12-gutter {
+  width: 535px;
+}
+
+.width-5-12 {
+  width: 522px;
+}
+
+.width-4-12 {
+  width: 415px;
+}
+
+.width-3-12 {
+  width: 308px;
+}
+
+.width-2-12 {
+  width: 201px;
+}
+
+.width-1-12 {
+  width: 94px;
+}
+
+/**********BASE STYLES***********/
+
+@font-face {
+  font-family: 'ascardi sans';
+  src: url(ascardi-sans.otf);
+}
+
+@font-face {
+    font-family: 'josefin sans';
+    src: url(josefin-sans);
+}
+
+
+h2 {
+  box-sizing: border-box;
+  color: #000F08;
+  font-family: 'ascardi sans';
+  font-size: 45px;
+  letter-spacing: .09em;
+  line-height: 60px;
+
+}
+
+
+h3 {
+  font-family: 'josefin sans', sans-serif;
+  letter-spacing: .075em;
+}
+
+ p {
+  color: #000f08;
+  font-family: 'josefin sans', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  line-height: 22px;
+  text-align: center;
+
+ }
+
+
+hr {
+  border: solid 3px #869D7A;
+  box-sizing: border-box;
+  clear: both;
+  display: block;
+  margin: 0 0 0 107px;
+  width: 1057px;
+
+}
+
+/************HERO**************/
+
+header #hero-image {
+  background-image: url("../img/hero-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 766px;
+  position: relative;
+}
+
+/************NAV**************/
+
+
+nav {
+  background-color: rgba(134, 157, 122, .5);
+  box-sizing: border-box;
+  display: inline-block;
+  height: 105px;
+  margin: auto;
+  overflow: auto;
+
+}
+
+
+nav h3 {
+  background: rgba(218, 216, 215, .5);
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #4D4847;
+  display: inline-block;
+  font-size: 26px;
+  float: left;
+  height: 51px;
+  margin: 25px 0;
+  padding-top: 13px;
+  text-align: center;
+  width: 308px;
+
+}
+
+nav ul {
+  box-sizing: border-box;
+  display: inline-block;
+  float: right;
+  list-style: none;
+  margin: 25px 0;
+
+
+}
+
+
+nav li {
+  background: rgba(218, 216, 215, .5);
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #4D4847;
+  display: inline-block;
+  height: 51px;
+  font-family: 'josefin sans', sans-serif;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: lighter;
+  margin-right: 13px;
+  padding-top: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 200px;
+
+}
+
+nav li .no-margin {
+  margin-right: 0;
+}
+
+nav li:hover {
+background: rgb(218, 216, 215);
+}
+
+nav li a, li a:visited {
+  color: #4D4847;
+  text-decoration: none;
+}
+
+/************HEADER************/
+
+div #header {
+  box-sizing: border-box;
+  max-height: 766px;
+  overflow: auto;
+
+}
+
+#header h1 {
+  box-sizing: border-box;
+  color: #000F08;
+  display: block;
+  font-family: 'ascardi sans';
+  font-size: 70px;
+  height: 80px;
+  letter-spacing: .075em;
+  line-height: 85px;
+  margin-left: 107px;
+  margin-top: 100px;
+  text-align: left;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+  text-transform: capitalize;
+
+}
+
+#header h2 {
+  box-sizing: border-box;
+  display: block;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+  width: 1057px;
+
+}
+
+#header .header-id-1 {
+  color: #4D4847;
+  margin: 118px 0 13px 107px;
+  text-align: left;
+
+}
+
+#header .header-id-2 {
+  margin: 13px 0 0 107px;
+  text-align: right;
+}
+
+header h4 {
+  box-sizing: border-box;
+  color: #707070;
+  font-family: 'josefin sans', sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  height: 31px;
+  letter-spacing: .075em;
+  text-align: right;
+  text-transform: uppercase;
+
+}
+
+div #ny-based {
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  margin: 75px 0 15px 535px;
+
+}
+
+.map {
+  display: inline-block;
+  float: left;
+  height: 58px;
+  margin-top: 5px;
+}
+
+div #nyu {
+  box-sizing: border-box;
+  clear: right;
+  display: inline-block;
+  float: left;
+  margin: 75px 0 15px 120px;
+
+}
+
+.cap {
+  display: inline-block;
+  float: left;
+  height: 47px;
+  margin-top: 15px;
+}
+
+/*************PORTFOLIO**************/
+
+#portfolio {
+  background: #DAD8D7;
+  border-top: solid 3px #000F08;
+  clear: both;
+
+}
+
+#portfolio h2 {
+  background: rgba(134, 157, 122, .5);
+  box-sizing: border-box;
+  border-radius: 15px;
+  clear: both;
+  height: 63px;
+  margin: 35px 0 35px 428px;
+  padding: 3px 0;
+  text-align: center;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+  width: 415px;
+
+}
+
+#portfolio h3 {
+  box-sizing: border-box;
+  display: block;
+  font-size: 26px;
+  font-weight: 600;
+  height: 40px;
+  line-height: 32px;
+  margin: 20px 0 0 321px;
+  text-align: center;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+
+}
+
+#portfolio h4 {
+  box-sizing: border-box;
+  color: #000f08;
+  font-family: 'josefin sans', sans-serif;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 600;
+  height: 30px;
+  letter-spacing: 0.08em;
+  line-height: 32px;
+  margin: 15px 0 19px;
+  padding: 3px 0;
+  text-align: center;
+
+}
+
+#web-dev, #graphic-design, #photography {
+  clear: both;
+  margin: auto;
+
+}
+
+/************WEB DEV*************/
+
+
+#web-dev .icons img {
+  box-sizing: border-box;
+  clear: both;
+  height: 58px;
+  margin: 0 0 0 535px;
+
+}
+
+
+
+/**********ROGUE PICKINGS*********/
+
+div .rogue {
+  box-sizing: border-box;
+  clear: both;
+
+}
+
+.rogue img, .rogue div {
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  height: 300px;
+  margin-top: 50px;
+
+
+}
+
+.rogue img {
+  margin-left: 59px;
+}
+
+
+.rogue div {
+  background: rgba(167, 205, 189, 0.5);
+  border-radius: 15px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  display: block;
+  margin-left: 107px;
+  max-width: 522px;
+
+
+}
+
+.rogue p {
+  height: 235px;
+  margin-left: 47px;
+  width: 422px;
+}
+
+.rogue p span {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+/**************RECIPE COLLECTION**************/
+
+div .recipe {
+  box-sizing: border-box;
+  clear: both;
+}
+ .recipe div, .recipe img {
+   box-sizing: border-box;
+   display: inline-block;
+   float: left;
+   height: 300px;
+   margin-top: 24px;
+   overflow: hidden;
+
+
+ }
+
+ .recipe div {
+   background: rgba(134, 157, 122, 0.5);
+   border-radius: 15px;
+   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+   display: block;
+   margin-left: 59px;
+   max-width: 522px;
+
+ }
+
+ .recipe p {
+   height: 235px;
+   width: 422px;
+   margin-left: 47px;
+ }
+
+ .recipe p span {
+   font-style: italic;
+   font-weight: lighter;
+ }
+
+ .recipe img {
+   margin-left: 107px;
+ }
+
+
+
+/**********Dorothy Delong Web Page Design ***************/
+
+div .web-page {
+  box-sizing: border-box;
+  clear: both;
+
+}
+
+.web-page img, .web-page div {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 300px;
+  float: left;
+  margin-top: 24px;
+
+}
+
+.web-page img {
+  margin-left: 59px;
+
+}
+
+.web-page div {
+  background: rgba(167, 205, 189, 0.5);
+  border-radius: 15px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  display: block;
+  margin-bottom: 24px;
+  margin-left: 107px;
+  max-width: 522px;
+
+}
+
+.web-page p {
+  height: 235px;
+  margin-left: 47px;
+  width: 422px;
+
+}
+
+.web-page p span {
+  font-style: italic;
+  font-weight: lighter;
+
+}
+
+#web-dev div .line {
+  clear: both;
+
+}
+
+
+/**********GRAPHIC DESIGN***********/
+
+
+#graphic-design .icons img {
+  box-sizing: border-box;
+  clear: both;
+  height: 58px;
+  margin: 0 0 0 535px;
+
+}
+
+
+div .fupf, div .zul-fit {
+  box-sizing: border-box;
+  clear: both;
+  display: block;
+
+}
+
+/**********FUPF*********/
+
+.fupf img, .fupf .info-text {
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  height: 290px;
+  margin: 50px 0 0;
+
+}
+
+.fupf img {
+  max-width: 736px;
+
+}
+
+.fupf .info-text {
+  background: rgba(134, 157, 122, 0.5);
+  border-radius: 15px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  margin-left: 14px;
+  width: 522px;
+
+}
+
+
+
+.fupf .info-text p {
+  box-sizing: border-box;
+  height: 225px;
+  margin: 14px 0 0 50px;
+  width: 422px;
+
+}
+
+/*********ZUL FIT***********/
+
+
+.zul-fit .info-text, .zul-fit img {
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  height: 290px;
+  margin: 24px 0;
+
+
+}
+
+.zul-fit .info-text {
+  background: rgba(167, 205, 189, 0.5);
+  border-radius: 15px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  display: block;
+  width: 522px;
+
+}
+
+.zul-fit .info-text p {
+  box-sizing: border-box;
+  height: 225px;
+  margin: 14px 0 0 50px;
+  width: 422px;
+
+}
+
+.zul-fit img {
+  margin-left: 14px;
+  max-width: 736px;
+
+}
+
+
+
+
+/************PHOTO*************/
+
+#photography .icons img {
+  box-sizing: border-box;
+  clear: both;
+  margin: 0 0 0 535px;
+  height: 58px;
+
+}
+
+
+#photography h5 {
+  box-sizing: border-box;
+  clear: both;
+  color: #000f08;
+  display: block;
+  font-family: 'josefin sans', sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  height: 28px;
+  letter-spacing: 0.08em;
+  line-height: 32px;
+  margin: 46px 0 0 535px;
+  text-align: center;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+}
+
+#photography .digital, #photography .analog {
+  box-sizing: border-box;
+  clear: both;
+  height: 375px;
+
+}
+
+
+.digital div, .analog div {
+float: left;
+margin: auto;
+
+}
+
+.digital img, .analog img {
+  box-sizing: border-box;
+  display: inline-block;
+  max-height: 375px;
+  max-width: 415px;
+
+}
+
+
+.digital .img-1, .digital .img-3 {
+  box-sizing: border-box;
+  margin: 60px 0 0;
+}
+
+.analog .img-1, .analog .img-3 {
+  box-sizing: border-box;
+  margin: 18px 0 100px;
+}
+
+
+.digital .img-2 {
+  box-sizing: border-box;
+  margin: 26px 80px 0;
+
+}
+
+.analog .img-2 {
+  box-sizing: border-box;
+  margin: 48px 120px 0;
+
+}
+
+
+/**************ABOUT ME************/
+#about {
+  background: rgba(0, 15, 8, 0.5);
+  border-top: solid 3px #000F08;
+  clear: both;
+  height: 692px;
+
+}
+
+#about h2 {
+  background: rgba(0, 15, 8, 0.5);
+  border-radius: 15px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  color: #869d7a;
+  height: 63px;
+  margin: 41px 0 0 428px;
+  text-align: center;
+  width: 415px;
+
+}
+
+#about h3 {
+  color: #000f08;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 600;
+  height: 30px;
+  letter-spacing: 0.08em;
+  margin: 45px 0 0 107px;
+  text-align: left;
+  text-transform: capitalize;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+}
+
+#about .info {
+  max-height: 450px;
+  max-width: 865px;
+
+}
+
+#about .blue-card, #about .green-card {
+  border-radius: 15px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  display: inline-block;
+  float: left;
+  height: 445px;
+  width: 843px;
+
+}
+
+#about .blue-card {
+  background: #a7cdbd;
+  margin: 19px 0 0 64px;
+
+}
+
+#about .green-card {
+  background: #869d7a;
+  margin: -19px 0 0 19px;
+}
+
+#about p {
+  color: #000f08;
+  font-size: 20px;
+  letter-spacing: 0.07em;
+  line-height: 30px;
+  margin: 20px;
+  text-align: left;
+  width: 799px;
+
+}
+
+
+#about .headshot {
+  float: left;
+  margin: 95px 0 0 73px;
+  max-width: 214px;
+
+}
+/***********CONTACT**********/
+
+#contact {
+  background: #000f08;
+  clear: both;
+  height: 633px;
+
+}
+
+#contact h2 {
+  background: rgba(77, 72, 71, 0.75);
+  border-radius: 15px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  color: #a7cdbd;
+  font-size: 45px;
+  font-weight: normal;
+  height: 63px;
+  letter-spacing: 0.09em;
+  margin: 41px 0 0 428px;
+  text-align: center;
+  width: 415px;
+
+}
+
+#contact h3 {
+  color: #000f08;
+  font-family: 'ascardi sans';
+  font-size: 26px;
+  font-weight: normal;
+  height: 36px;
+  letter-spacing: 0.08em;
+  margin: 35px 0 0 107px;
+  text-align: center;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  text-transform: uppercase;
+  width: 308px;
+
+}
+
+#contact .lets-talk, #contact .lets-engage {
+  box-sizing: border-box;
+  float: left;
+  width: 535px;
+}
+
+/***********lets talk**********/
+
+#contact .green-card-parent {
+  background: #869d7a;
+  border-radius: 15px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  float: left;
+  height: 323px;
+  margin: 75px 0 0 64px;
+  width: 522px;
+
+}
+
+#contact .blue-card-child {
+  background: #a7cdbd;
+  border-radius: 15px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  float: left;
+  height: 323px;
+  margin: -14px 0 0 -14px;
+  width: 522px;
+
+}
+
+#contact .lets-talk ul {
+  line-height: 30px;
+  list-style: none;
+  margin: 54px 0 0 -13px;
+
+}
+
+#contact .lets-talk li {
+  box-sizing: border-box;
+  clear: both;
+  display: inline-block;
+
+}
+
+.lets-talk li img {
+  display: inline-block;
+  width: 45px;
+
+}
+
+.lets-talk li .email {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 38px;
+  margin-bottom: 25px;
+  max-width: 450px;
+
+}
+
+.email img {
+  margin-right: 35px;
+}
+
+.lets-talk li .phone {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 44px;
+  max-width: 330px;
+
+}
+
+.phone img {
+  margin-right: 80px;
+}
+
+
+
+#contact .lets-talk li a {
+  color: #000f08;
+  display: inline-block;
+  font-family: 'josefin sans', sans-serif;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 600;
+  height: 28px;
+  letter-spacing: 0.08em;
+  text-align: right;
+  text-decoration: none;
+
+}
+
+
+
+
+/*******LETS ENGAGE********/
+
+#contact .lets-engage {
+  margin-left: 100px;
+  width: 545px;
+}
+
+#contact .blue-card-parent {
+  background: #a7cdbd;
+  border-radius: 15px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  float: left;
+  height: 323px;
+  margin: 75px 0 0 14px;
+  padding: 0;
+  width: 522px;
+
+}
+
+#contact .green-card-child {
+  background: #869d7a;
+  border-radius: 15px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  float: left;
+  height: 323px;
+  margin: -14px 0 0 14px;
+  padding: 0;
+  width: 522px;
+
+}
+
+#contact .lets-engage ul {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 58px 0;
+  padding: 0;
+
+}
+
+#contact .lets-engage li {
+  display: inline-block;
+  float: left;
+
+}
+
+#contact .lets-engage .img-1 {
+  margin: 0 13px 0 50px;
+}
+
+#contact .lets-engage .img-2, #contact .lets-engage .img-3 {
+  margin: 0 13px 0 0;
+}
+
+#contact .lets-engage .img-4 {
+  margin: 0;
+}
+#contact .lets-engage li img {
+  box-sizing: border-box;
+  width: 94px;
+
+}
